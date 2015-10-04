@@ -22,7 +22,7 @@ using System.Collections.Generic;
 
 namespace StephenGTuggy.DeleteLongPaths
 {
-    public class FileSystemInfoComparer : Comparer<Alphaleonis.Win32.Filesystem.FileSystemInfo>
+    public class FileSystemInfoComparer : Comparer<Alphaleonis.Win32.Filesystem.FileSystemInfo>, IEqualityComparer<Alphaleonis.Win32.Filesystem.FileSystemInfo>
     {
         public override int Compare(Alphaleonis.Win32.Filesystem.FileSystemInfo x, Alphaleonis.Win32.Filesystem.FileSystemInfo y)
         {
@@ -41,6 +41,38 @@ namespace StephenGTuggy.DeleteLongPaths
             else
             {
                 return StringComparer.Ordinal.Compare(x.FullName, y.FullName);
+            }
+        }
+
+        public bool Equals(Alphaleonis.Win32.Filesystem.FileSystemInfo x, Alphaleonis.Win32.Filesystem.FileSystemInfo y)
+        {
+            if ((x == null) && (y == null))
+            {
+                return true;
+            }
+            else if ((x == null) && (y != null))
+            {
+                return false;
+            }
+            else if ((y == null) && (x != null))
+            {
+                return false;
+            }
+            else
+            {
+                return StringComparer.Ordinal.Equals(x.FullName, y.FullName);
+            }
+        }
+
+        public int GetHashCode(Alphaleonis.Win32.Filesystem.FileSystemInfo obj)
+        {
+            if (obj == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return obj.FullName.GetHashCode();
             }
         }
     }

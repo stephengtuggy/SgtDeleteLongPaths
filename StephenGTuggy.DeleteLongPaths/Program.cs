@@ -95,26 +95,26 @@ namespace StephenGTuggy.DeleteLongPaths
                             }
                             catch (System.IO.IOException ex)
                             {
-                                Console.WriteLine(ex);
+                                Console.WriteLine(ex.Message);
                             }
                             catch (System.Security.SecurityException ex)
                             {
-                                Console.WriteLine(ex);
+                                Console.WriteLine(ex.Message);
                             }
                         }
                     }
                 }
                 catch (UnauthorizedAccessException ex)
                 {
-                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine(ex.Message);
                 }
                 catch (System.IO.DirectoryNotFoundException ex)
                 {
-                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine(ex.Message);
                 }
                 catch (System.Security.SecurityException ex)
                 {
-                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine(ex.Message);
                 }
 
                 // Then, if this dir matches the wildcard itself, recursively delete everything else inside it.
@@ -145,26 +145,26 @@ namespace StephenGTuggy.DeleteLongPaths
                                 }
                                 catch (System.IO.IOException ex)
                                 {
-                                    Console.WriteLine(ex);
+                                    Console.WriteLine(ex.Message);
                                 }
                                 catch (System.Security.SecurityException ex)
                                 {
-                                    Console.WriteLine(ex);
+                                    Console.WriteLine(ex.Message);
                                 }
                             }
                         }
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.IO.DirectoryNotFoundException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.Security.SecurityException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
 
                     // Finally, if this dir matches the wildcard, delete the directory itself.
@@ -179,19 +179,19 @@ namespace StephenGTuggy.DeleteLongPaths
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.IO.DirectoryNotFoundException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.IO.IOException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.Security.SecurityException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                 }
                 else
@@ -207,15 +207,15 @@ namespace StephenGTuggy.DeleteLongPaths
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.IO.DirectoryNotFoundException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                     catch (System.Security.SecurityException ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine(ex.Message);
                     }
                 }
             }
