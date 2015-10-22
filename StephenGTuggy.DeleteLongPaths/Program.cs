@@ -62,6 +62,8 @@ namespace StephenGTuggy.DeleteLongPaths
 
         public static void Delete(Alphaleonis.Win32.Filesystem.DirectoryInfo directoryToDelete, string wildcard, bool thisDirKnownToMatchWildcard, bool actuallyDelete)
         {
+            string actuallyDeleteString = actuallyDelete ? "Deleted" : "Would delete";
+
             SortedSet<Alphaleonis.Win32.Filesystem.FileSystemInfo> fsis1 = null;
             SortedSet<Alphaleonis.Win32.Filesystem.FileSystemInfo> fsis2 = null;
             if (!directoryToDelete.Exists)
@@ -91,7 +93,7 @@ namespace StephenGTuggy.DeleteLongPaths
                                     fi1.Attributes &= FileAttributes2;
                                     fi1.Delete();
                                 }
-                                Console.WriteLine(string.Format("Deleted file \"{0}\".", fi1.FullName));
+                                Console.WriteLine(string.Format("{0} file \"{1}\".", actuallyDeleteString, fi1.FullName));
                             }
                             catch (System.IO.IOException ex)
                             {
@@ -141,7 +143,7 @@ namespace StephenGTuggy.DeleteLongPaths
                                         fi2.Attributes &= FileAttributes2;
                                         fi2.Delete();
                                     }
-                                    Console.WriteLine(string.Format("Deleted file \"{0}\".", fi2.FullName));
+                                    Console.WriteLine(string.Format("{0} file \"{1}\".", actuallyDeleteString, fi2.FullName));
                                 }
                                 catch (System.IO.IOException ex)
                                 {
@@ -175,7 +177,7 @@ namespace StephenGTuggy.DeleteLongPaths
                             directoryToDelete.Attributes &= FileAttributes2;
                             directoryToDelete.Delete(false);
                         }
-                        Console.WriteLine(string.Format("Deleted directory \"{0}\".", directoryToDelete.FullName));
+                        Console.WriteLine(string.Format("{0} directory \"{1}\".", actuallyDeleteString, directoryToDelete.FullName));
                     }
                     catch (UnauthorizedAccessException ex)
                     {
