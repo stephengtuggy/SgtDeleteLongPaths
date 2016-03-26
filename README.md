@@ -44,6 +44,12 @@ And to actually delete the same set of files and directories, I would run the sa
 C:\Dev\Repos\GitHub\SgtDeleteLongPaths\StephenGTuggy.DeleteLongPaths\bin\Release\StephenGTuggy.DeleteLongPaths.exe true * C:\Windows\Temp
 ```
 
+## Contributing
+
+Contribute? Why would you want to contribute anything? My code is perfect! ;-)
+
+Seriously, pull requests are welcome. Just please try to follow the coding conventions you see in my code.
+
 ## Conclusion
 
 That's it! Let me know if you have any further questions.
