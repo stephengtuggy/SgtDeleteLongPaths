@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StephenGTuggy.DeleteLongPaths", "StephenGTuggy.DeleteLongPaths\StephenGTuggy.DeleteLongPaths.csproj", "{F06FB7DD-084C-4B82-BFBE-4B4DC41E2555}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{8D84648A-DBB7-49FB-8011-2FDE66BAA09D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{F06FB7DD-084C-4B82-BFBE-4B4DC41E2555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F06FB7DD-084C-4B82-BFBE-4B4DC41E2555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F06FB7DD-084C-4B82-BFBE-4B4DC41E2555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D84648A-DBB7-49FB-8011-2FDE66BAA09D}.Debug|Any CPU.ActiveCfg = Debug
+		{8D84648A-DBB7-49FB-8011-2FDE66BAA09D}.Debug|Any CPU.Build.0 = Debug
+		{8D84648A-DBB7-49FB-8011-2FDE66BAA09D}.Release|Any CPU.ActiveCfg = Release
+		{8D84648A-DBB7-49FB-8011-2FDE66BAA09D}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {811650FA-E0C8-427A-BE9B-B6F17BC3EA87}
 	EndGlobalSection
 EndGlobal
