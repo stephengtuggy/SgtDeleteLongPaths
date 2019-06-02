@@ -10,7 +10,7 @@ Special thanks to the AlphaFS project (https://github.com/alphaleonis/AlphaFS) f
 
 ## Getting Started / Prerequisites
 
-To get started, you will need **Windows 7** or later. You will also need **Visual Studio 2013 Community Edition** or better, or **Visual Studio 2015 Community Edition** or better.
+To get started, you will need **Windows 7 64-bit** or later. You will also need **Visual Studio 2019 Community Edition** or better. .NET Framework 4.7.2 is also required. (The installer will install this for you, if necessary.)
 
 Clone the repo to your local computer using Git on the command line, or the GitHub Desktop application or similar. Double-click StephenGTuggy.DeleteLongPaths.sln to open it in Visual Studio.
 
