@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BE73CFDF06C86E75248C8E687AEC9D67"
+        "OwnerKey" = "8:_B64EB520374A45FA89C698873EF94EC8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B64EB520374A45FA89C698873EF94EC8"
+        "OwnerKey" = "8:_BE73CFDF06C86E75248C8E687AEC9D67"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -155,7 +163,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_238D6C67334F4C4B9782746868DCB743"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -202,30 +210,30 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup1"
-        "ProductCode" = "8:{27E179EF-4124-4F52-A21C-DC18692ADCC6}"
-        "PackageCode" = "8:{6DA0A79D-2CD7-4463-A477-F006278AACAA}"
+        "ProductName" = "8:SgtDeleteLongPaths"
+        "ProductCode" = "8:{FF92B8B8-0ED0-47A9-9002-5DD6B221CE7C}"
+        "PackageCode" = "8:{E36D23EB-9F34-4BF7-AEBE-A9E027FD4BF5}"
         "UpgradeCode" = "8:{AC659D2D-D0B1-4FA8-9BB7-1A95FFE5B038}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:2.0.0-beta.1"
+        "Manufacturer" = "8:Stephen G Tuggy"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup1"
+        "ARPHELPLINK" = "8:http://stephengtuggy.com/Contact"
+        "Title" = "8:SgtDeleteLongPaths"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Stephen G Tuggy"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPCOMMENTS" = "8:Advanced Delete Tool for Windows"
+        "ARPURLINFOABOUT" = "8:http://stephengtuggy.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
