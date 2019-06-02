@@ -15,14 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_64F706D5C7BF41C3B6802281C958A99C"
+        "MsmKey" = "8:_B64EB520374A45FA89C698873EF94EC8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_BE73CFDF06C86E75248C8E687AEC9D67"
-        "OwnerKey" = "8:_64F706D5C7BF41C3B6802281C958A99C"
+        "OwnerKey" = "8:_B64EB520374A45FA89C698873EF94EC8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_64F706D5C7BF41C3B6802281C958A99C"
+        "OwnerKey" = "8:_B64EB520374A45FA89C698873EF94EC8"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -308,7 +308,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3B6C7AA0CC7649F5B9B0EA376CC37F11"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2606937C6822469EB2FAB5EE5A7FD80F"
             {
             "Name" = "8:SgtDeleteLongPaths"
             "Arguments" = "8:"
@@ -316,7 +316,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_64F706D5C7BF41C3B6802281C958A99C"
+            "Target" = "8:_B64EB520374A45FA89C698873EF94EC8"
             "Folder" = "8:_CD7198B52EB34DDA851479DD54271AD0"
             "WorkingFolder" = "8:_238D6C67334F4C4B9782746868DCB743"
             "Icon" = "8:"
@@ -721,7 +721,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_64F706D5C7BF41C3B6802281C958A99C"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B64EB520374A45FA89C698873EF94EC8"
             {
             "SourcePath" = "8:..\\StephenGTuggy.DeleteLongPaths\\obj\\Release\\StephenGTuggy.DeleteLongPaths.exe"
             "TargetName" = "8:"
@@ -741,7 +741,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
+            "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{F06FB7DD-084C-4B82-BFBE-4B4DC41E2555}"
             "ShowKeyOutput" = "11:TRUE"
